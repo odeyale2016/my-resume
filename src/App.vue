@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
    
 
     <div class="wrapper">
-      <img alt="Alphatech logo" class="logo" src="@/assets/profile.png" width="100" height="100" />
+      <img alt="Alphatech logo" class="logo" src="@/assets/profile.png" width="150" height="150" />
       <HelloWorld msg="Odeyale Kehinde Musiliudeen" />
 
       <nav>
