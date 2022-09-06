@@ -43,8 +43,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: cadetblue;
     margin-top: 5rem;
-    margin-left: 1rem;     
+   
     text-align: center;   
+    
+    background-color: black;
 
   }
   </style>
