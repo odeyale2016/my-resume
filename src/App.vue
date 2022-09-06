@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import TheFooter from './components/TheFooter.vue'
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
    
 
     <div class="wrapper">
-      <img alt="Alphatech logo" class="logo" src="@/assets/profile.png" width="150" height="150" />
+      <img alt="Alphatech logo" class="logo" src="@/assets/profile.png" width="100" height="100" />
       <HelloWorld msg="Odeyale Kehinde Musiliudeen" />
 
       <nav>
@@ -18,10 +19,12 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/contact">Contacts</RouterLink>
         <RouterLink to="/profile">Profile</RouterLink>
       </nav>
+      <img alt="Alphatech logo" src="@/assets/about-me.jpg" width="500" height="280" />
     </div>
   </header>
-
+  
   <RouterView />
+  <TheFooter></TheFooter>
 </template>
 
 <style scoped>
@@ -85,5 +88,6 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+
 }
 </style>

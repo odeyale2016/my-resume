@@ -50,7 +50,7 @@ Tested and troubleshoot all Web functions to ensure optimal user experience.</p>
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: cadetblue;
   }
   .img-about{
@@ -67,7 +67,7 @@ ul{
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: cadetblue;
 }
 }
