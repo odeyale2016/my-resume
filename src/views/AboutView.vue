@@ -42,6 +42,7 @@ Tested and troubleshoot all Web functions to ensure optimal user experience.</p>
    
     display: block;;
     align-items: left;
+    flex-direction: column
   }
   p{
   width: 100%;
